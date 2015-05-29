@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Rokkitt);
+
+canvas {
+    width: 100%;
+}
+
+figure {
+    border: 1px solid #3c3c3c;
+    padding: 5px;
+    border-radius: 3px;
+
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+figure:hover {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-color: black;
+    font-size: 110%;
+}
+
+/*Fonts*/
+
+body {
+    font-family: 'Rokkitt', serif;
+}
+
+/*Headings*/
+
+.title{
+    text-align: center;
+    font-family: 'Open Sans', cursive;
+}
+
+h1.title {
+
+}
+
+h2.title {
+
+}
+
+h3.title {
+    color: #317589;
+    text-shadow: 1px 1px 2px #343434;
+}
+
+.tldr {
+    background-color: #f0f0f0;
+    color: black;
+
+    padding: 10px;
+
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px
+}
+
+/*Endnotes!*/
+
+.endnotes li {
+    margin-bottom: 3px;
+}
+
+.ref {
+    border-bottom: none;
+    background-color: #a8a8a8;
+    line-height: 0;
+    top: -0.5rem;
+    position: relative;
+    color: #515151;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 75%;
+    font-weight: bold;
+    padding: .2em 0.5em 0.2em;
+}
+
+.ref:hover {
+    background-color: #9d3737;
+    color: #d1d1d1;
+}
+
+/*Mobile and desktop jazz!*/
+
+.mobile {
+    display: hidden;
+}
+
+@mobile (max-width: 800px){
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: hidden;
+    }
+}
