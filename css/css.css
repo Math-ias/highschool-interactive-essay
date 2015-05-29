@@ -46,8 +46,7 @@ h2.title {
 }
 
 h3.title {
-    color: #317589;
-    text-shadow: 1px 1px 2px #343434;
+
 }
 
 .tldr {
@@ -91,6 +90,8 @@ h3.title {
 .mobile {
     display: hidden;
 }
+
+#
 
 @mobile (max-width: 800px){
     .mobile {
