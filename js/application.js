@@ -33,6 +33,27 @@ oCanvas.domReady(function(){
                 scroll("#p:belly");
             },
             name: "3",
+        },{
+            x: 366,
+            y: 346,
+            click: function(){
+                scroll("#p:upbringing");
+            },
+            name: "4",
+        },{
+            x: 194,
+            y: 616,
+            click: function(){
+                scroll("#p:colonel");
+            },
+            name: '5',
+        },{
+            x: 614,
+            y: 655,
+            click: function(){
+                scroll("#p:exploits");
+            },
+            name: '6',
         },
     ];
 

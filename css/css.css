@@ -13,6 +13,10 @@ figure {
     -webkit-transition: all 1s ease;
 }
 
+figcaption {
+    text-align: center;
+}
+
 figure:hover {
     padding-bottom: 10px;
     padding-top: 10px;
